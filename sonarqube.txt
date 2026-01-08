@@ -1,0 +1,24 @@
+Organization: Github_sonar
+Project Key : kadaparavi
+SONAR_TOKEN:5835788bcd734dc9cb747db02d9fdddcf2a06aec
+
+
+organization:  jenkins_sonarqube_integration1
+prject key:  jenkins-sonarqube-integration1_jenkins-sonarqube-integration1
+
+
+kubernetes
+
+Then you can join any number of worker nodes by running the following on each as root:
+
+kubeadm join 172.31.41.235:6443 --token erg6sn.vceez39d3oetehsf \
+        --discovery-token-ca-cert-hash sha256:fe0a8beb7bc0fa1b8acc554bcf10942dedf7569cfa6a51946a06999fe7f07608
+
+
+kubectl is the cliend send a request to api server to get the node details
+
+
+
+
+sudo wget https://raw.githubusercontent.com/lerndevops/labs/master/scripts/installK8S.sh -P /tmp
+sudo bash /tmp/installK8S.sh
